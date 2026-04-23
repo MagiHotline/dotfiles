@@ -1,0 +1,129 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha"
+  },
+  "format_on_save": "off",
+  "theme": "Gruvbox Dark",
+  "theme_overrides": {
+    "Gruvbox Dark": {
+      // WINDOW & BLUR
+      "background.appearance": "blurred",
+      "background": "#282828d7",
+      "status_bar.background": "#282828d7",
+      "title_bar.background": "#282828d7",
+
+      // SURFACES AND PANELS
+      "surface.background": "#1d2021d0",
+      "elevated_surface.background": "#282828",
+      "panel.overlay_background": "#282828",
+      "hint.background": "#3c3836c0",
+
+      // LAYERS
+      "editor.background": "#00000000",
+      "editor.gutter.background": "#00000000",
+      "tab_bar.background": "#00000000",
+      "terminal.background": "#00000000",
+      "toolbar.background": "#00000000",
+      "panel.background": "#00000000",
+      "tab.inactive_background": "#00000000",
+      "editor.active_line.background": "#00000000",
+
+      // INTERACTIVE ELEMENTS
+      "tab.active_background": "#282828b0",
+      "ghost_element.background": "#1d202160",
+      "ghost_element.hover": "#1d202190",
+      "scrollbar.thumb.background": "#a8998430",
+      "drop_target.background": "#fabd2f20",
+
+      "text.muted": "#a89984ff",
+      "editor.line_number": "#a89984ff",
+      "editor.active_line_number": "#fabd2fff",
+      "terminal.ansi.black": "#28282800",
+
+      // BORDERS
+      "border": "#3c383615",
+      "border.variant": "#00000000",
+      "pane_group.border": "#3c383615",
+      "pane.focused_border": "#fabd2f10",
+
+      "syntax": {
+        "comment": {
+          "color": "#a89984",
+          "font_style": "italic"
+        },
+        "keyword": {
+          "font_style": "italic"
+        }
+      }
+    }
+  },
+  "ui_font_family": "Print Char 21",
+  "ui_font_size": 13.5,
+  "buffer_font_family" : "Print Char 21",
+  "buffer_font_size": 15.0,
+  "vim_mode": true,
+  "disable_ai": true,
+  "languages": {
+    "Agda": {
+      "format_on_save": "on",
+      "preferred_line_length": 80,
+      "remove_trailing_whitespace_on_save": true
+    }
+  },
+  "diagnostics": {
+    "button": true,
+    "include_warnings": true,
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null,
+    },
+  },
+  "lsp" : {
+    "jdtls": {
+      "settings": {
+          "lombok_support": true
+      }
+    },
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": null,
+  }
+}

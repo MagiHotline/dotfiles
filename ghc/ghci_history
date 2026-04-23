@@ -1,0 +1,100 @@
+:q
+:r
+:r
+squares [1,2,3,4,5]
+:r
+divisors 15
+:r
+:rt
+:r
+evens [1,2,3,4,6]
+evens [1,2,3,4,6[
+:r
+inc [1,2,3]
+:r
+:rù
+myfilter (\x -> even x) [1,2,3,4,5,6]
+:r
+myrep 10 "cacca"
+myrep 2 "ciao"
+myrep 2 "ciao
+myrep "ciao" 2
+myrep 30 10
+myrep 10 30
+myrep 3 5
+:r
+myand [True, True, True, False, True]
+myand [True, True, True, False]
+:r
+myand [True, True, True, False]
+myand [True, True, True]
+myand [True, True, True, False]
+myand [True, True, True]
+myand [True, False, False]
+:q
+merge [7,10,13] [1,2,3]
+:r
+merge [7,10,13] [1,2,3]
+:r
+merge [7,10,13] [1,2,3]
+merge [7,10,13] [1,2,3]
+:r
+:r
+:r
+returnRoom student1
+returnRoom
+:r
+r
+returnLeader student1
+returnLeader student 1
+:r
+returnLeader student1
+:r
+filter (<200) $ map (^3) [40, 4]
+main
+:r
+(*2) <$> [1,2,3] <*> 2
+(*2) <$> [1,2,3]
+(*2) <$> [1,2,3] <*> [1,2]
+catCount
+:r
+groupBy (==Category) people
+groupBy (==) people
+watPeopleAge
+:r
+tippPeople
+:q
+tippPeople
+:r
+anagram "palla" "cacca"
+anagram "palla" "allap"
+:r 
+myrev [1,2,3]
+myrev [1,2,3
+:r
+mymap (*2) [1,2,3]
+:r
+evens [1,2,3,4,5,6,7,8,9]
+:r
+double [1,2.2,3.5]
+double [1,2.2,3]
+double [1,2,3]
+:r
+double
+fib 65
+fib 25
+fib 31
+fib 30
+fib 20
+fib 15
+fib 14
+fib 13
+fib 12
+fib 10
+fib 5
+fib 3
+provinceCount
+provinceCount people
+:r
+tippPeopleAge people
+:r
