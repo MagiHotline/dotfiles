@@ -81,7 +81,7 @@ disabled = false
 style = "fg:color_blue bold"
 format = "[in $path]($style)"
 truncation_length = 3
-truncation_symbol = "…/"
+truncation_symbol = " …/"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
